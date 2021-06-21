@@ -5,20 +5,54 @@ body {
 .title{
     position: absolute;
     left: 50%;
-    top: 50%;
+    top: 40%;
     transform: translate(-50%);
-
     font-size: 400%;
     color: white;
 }
+.title2{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%);
+    font-size: 400%;
+    color: white;
+}
+.text{
+    position: relative;
+    top: 50px;
+    color: white;
+    font-size: 150%;
+    text-align: center;
+}
 .bar{
+    text-align: center;
+    background-color: #36454f;
+    margin: -7px;
+    height: 50px;
+    width: 101%;
+}
+.bar2{
+    text-align: left;
     background-color: #36454f;
     margin: -7px;
     height: 50px;
     width: 101%;
 }
 .links {
+    margin-left: 5px ;
+    margin-right: 5px;
     color: #de5d83;
     position: relative;
     top: 25%;
+}
+.block{
+    position: relative;
+    display: inline-block;
+    width: 350px;
+    min-height: 350px;
+    background-color: white;
+    border-radius: 20px;
+    overflow: hidden;
+    margin: 20px;
 }
