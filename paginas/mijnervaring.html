@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Mijn ervaring</title>
+    <link rel="stylesheet" type="text/css" href="../style.css">
+    <script src="../main.js"></script>
+</head>
+<body>
+<div class="bodyDiv">
+<div class="bar2">
+    <a class="links" href="../index.html">terug</a>
+</div>
+
+<center>
+
+    <div id="htmlText" class="block"></div>
+
+    <div id="phpText" class="block"></div>
+
+    <div id="jsText" class="block"></div>
+
+    <div id="gitText" class="block"></div>
+
+</center>
+<script>
+    toggleText('htmlText', 'htmlcss.svg',
+        '<br>' + 'ik heb html en css leren kennen op het begin van mijn opleiding. <br> ' +
+        'Wij gebruikte dezen talen voor het ontwikkelen van webapplicaties. <br> ' +
+        'ik heb zelf best veel gedaan met HTML en CSS. <br> ' +
+        'zo heb ik met een groepje klasgenoten een webshop moeten maken, <br> ' +
+        'en ben ik nu bezig met het leren gebruiken van bootstrap.', 'red', 'HTML/CSS');
+    toggleText('phpText', 'php.svg',
+        '<br> ik ben voor het eerst in aanraking gekomen met php toen ik startte met mijn opleiding.<br>' +
+        'doordat ik al een beetje kennis had van c++, had ik weinig moeite met het leren van php, <br>' +
+        'en ik kan er nu redelijk goed in programmeren.', 'blue', 'php');
+    toggleText('jsText', 'javascript.svg', 'ik heb nog niet veel ervaring met JavaScript,<br>' +
+        'maar het leek mij een leuke taal, die ik graag wilde beheersten.<br>' +
+        'ik heb mezelf voorgenomen om in dit portfolio alleen javascript te gebruiken, en geen php.', 'yellow', 'javascript');
+    toggleText('gitText', 'github.svg', 'via github werk ik samen met anderen leerlingen<br>' +
+        'wij hebben via github samen gewerkt aan projecten zoals een rekensite,<br>' +
+        'of aan een webshop gewerkt. <br>' +
+        '<a href="https://github.com/TimHartsuijker">hier</a> kan u mijn github vinden.', 'grey', 'github')
+</script>
+</div>
+</body>
+</html>

@@ -26,18 +26,24 @@ body {
     text-align: center;
 }
 .bar{
+    position: absolute;
+    left: 0;
+    top: 0;
     text-align: center;
     background-color: #36454f;
-    margin: -7px;
+    margin: 0;
     height: 50px;
-    width: 101%;
+    width: 100%;
 }
 .bar2{
+    position: absolute;
+    left: 0;
+    top: 0;
     text-align: left;
     background-color: #36454f;
-    margin: -7px;
+    margin: 0;
     height: 50px;
-    width: 101%;
+    width: 100%;
 }
 .links {
     margin-left: 5px ;
@@ -54,5 +60,10 @@ body {
     background-color: white;
     border-radius: 20px;
     overflow: hidden;
-    margin: 20px;
+    margin-top: 50px;
+    margin-right: 5px;
+    margin-left: 20px;
+}
+.bodyDiv{
+    width: 100%;
 }
